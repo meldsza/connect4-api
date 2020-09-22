@@ -1,0 +1,30 @@
+{
+  "name": "pratillipi-hackerearth",
+  "version": "1.0.0",
+  "description": "Play Connect 4",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index",
+    "test": "./node_modules/.bin/mocha tests/**"
+  },
+  "keywords": [
+    "connect4",
+    "api",
+    "express",
+    "mysql"
+  ],
+  "author": "Melroy Neil Dsouza",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "knex": "^0.21.5",
+    "mysql": "^2.18.1",
+    "pg": "^8.3.3",
+    "sqlite3": "^5.0.0",
+    "uuid": "^8.3.0"
+  },
+  "devDependencies": {
+    "mocha": "^8.1.3"
+  }
+}
